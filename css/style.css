@@ -347,38 +347,7 @@ body {
 .\-1u {
   margin-left:8.3333333333%
 }
-@font-face {
-  font-family:Lato;
-  font-style:normal;
-  font-weight:400;
-  src:local('Lato Regular'),
-  local('Lato-Regular'),
-  url(https://web.archive.org/web/20240609015011im_/http://fonts.gstatic.com/s/lato/v11/v0SdcGFAl2aezM9Vq_aFTQ.ttf) format('truetype')
-}
-@font-face {
-  font-family:Lato;
-  font-style:normal;
-  font-weight:700;
-  src:local('Lato Bold'),
-  local('Lato-Bold'),
-  url(https://web.archive.org/web/20240609015011im_/http://fonts.gstatic.com/s/lato/v11/DvlFBScY1r-FMtZSYIYoYw.ttf) format('truetype')
-}
-@font-face {
-  font-family:Lato;
-  font-style:italic;
-  font-weight:400;
-  src:local('Lato Italic'),
-  local('Lato-Italic'),
-  url(https://web.archive.org/web/20240609015011im_/http://fonts.gstatic.com/s/lato/v11/LqowQDslGv4DmUBAfWa2Vw.ttf) format('truetype')
-}
-@font-face {
-  font-family:Lato;
-  font-style:italic;
-  font-weight:700;
-  src:local('Lato Bold Italic'),
-  local('Lato-BoldItalic'),
-  url(https://web.archive.org/web/20240609015011im_/http://fonts.gstatic.com/s/lato/v11/HkF_qI1x_noxlxhrhMQYEKCWcynf_cDxXwCLxiixG1c.ttf) format('truetype')
-}
+
 html {
   font-size:100%
 }
@@ -389,8 +358,8 @@ body,
 input,
 select,
 textarea {
-  color:#888;
-  font:400 1.1em/1.6em Lato,sans-serif
+  color:#666;
+  font:400 1.1em/1.6em Arial,sans-serif
 }
 a {
   -webkit-transition:color .2s ease-in-out,border-color .2s ease-in-out;
